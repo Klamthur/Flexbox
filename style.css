@@ -1,6 +1,7 @@
 :root {
   --primary-color: crimson;
   --secondary-color: orange;
+  --tertiary-color: aqua;
   --highlight-color: yellow;
   --hover-color: yellowgreen;
   --space: 20px;
@@ -16,21 +17,41 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+header {
+  margin: var(--space);
+}
 header > h1 {
   color: var(--primary-color);
   text-align: center;
   padding: var(--space);
 }
-header > img {
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: var(--space);
+}
+main > img {
   width: 60%;
   max-width: 500px;
   min-width: 240px;
-  margin: var(--space);
+  padding: var(--space);
 }
-header > section > h2 {
+li {
+  list-style-type: none;
+  padding: var(--space);
+}
+main > section > ul > li > a {
   color: var(--secondary-color);
-  display: flex;
   justify-content: end;
-  margin: var(--space);
+}
+a {
+  color: var(--hover-color);
+  transition: 0.5;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--tertiary-color);
 }
