@@ -1,7 +1,6 @@
 :root {
   --primary-color: crimson;
   --secondary-color: orange;
-  --tertiary-color: aqua;
   --highlight-color: yellow;
   --hover-color: yellowgreen;
   --space: 20px;
@@ -18,63 +17,39 @@
   box-sizing: border-box;
 }
 header {
-  display: flex;
-  color: var(--primary-color);
-  justify-t;
+  flex-grow: row wrap;
+  flex: 1 1;
   padding: var(--space);
   margin: var(--space);
+  gap: var(--space);
   text-transform: uppercase;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+}
+header > section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--space);
+  margin: var(--space);
+  gap: var(--space);
+}
+ul {
+  display: flex;
+  list-style-type: none;
   gap: var(--space);
 }
 main {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  margin: var(--space);
-}
-main > img {
-  width: 60%;
-  max-width: 500px;
-  min-width: 240px;
-  padding: var(--space);
-}
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style-type: none;
   padding: var(--space);
   gap: var(--space);
 }
-main > section > ul > li > a {
-  color: var(--secondary-color);
-  justify-content: end;
-}
-a {
-  color: var(--hover-color);
-  transition: 0.5;
-}
-h2,
-h3,
-h4,
-h5,
-h6 {
-  display: flex;
-  color: var(--tertiary-color);
-  justify-content: center;
-  text-align: center;
-  gap: var(--space);
-  text-transform: uppercase;
-  padding: var(--space);
-}
-.clasica,
-.pop,
-.rock > img {
-  width: 60%;
-  min-width: 250;
-  max-width: 600;
-}
-.top-btn{
+.top-btn {
   color: var(--primary-color);
   bottom: var(--space);
   right: var(--space);
