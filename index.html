@@ -13,32 +13,36 @@
   <body>
     <header>
       <h1>El Mundo del Frisbee</h1>
-    </header>
-    <main>
       <img
         src="https://img.freepik.com/free-photo/person-with-cd-rom_1048-1691.jpg"
         alt="persona con cd rom"
       />
-      <section>
+      <div>
         <ul>
           <li><a id="home">Home</a></li>
-          <li><a href="#musica">Musica</a></li>
-          <li><a href="#peliculas">Peliculas</a></li>
-          <li><a href="#videojuegos">Videojuegos</a></li>
+          <li>
+            <a href="#musica">Musica</a>
+            <ul>
+              <li><a href="#clasica">Clasica</a></li>
+              <li><a href="#pop">Pop</a></li>
+              <li><a href="#rock">Rock</a></li>
+            </ul>
+          </li>
           <li><a href="#contact">Contacto</a></li>
         </ul>
-      </section>
-    </main>
+      </div>
+    </header>
     <main>
       <h2 id="musica">Musica</h2>
-      <section class="Clasica">
-        <h3>Clasica</h3>
+      <section class="clasica">
+        <h3 id="clasica">Clasica</h3>
+        <h4>Beethoven</h4>
         <ul>
-          <h4>Beethoven</h4>
           <li>
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStFToV9RIzsNlcDJvVuvUnDPy_5Tav7gcBAg&s"
               alt="Beethoven"
+              width="250"
             />
             <a
               href="https://www.youtube.com/watch?v=AXMP8SLXQuo"
@@ -60,12 +64,13 @@
             </p>
           </li>
         </ul>
+        <h4>Mozart</h4>
         <ul>
-          <h4>Mozart</h4>
           <li>
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS87B7boW4ZOagzC8l5At9xCPxUB3EfZ-0Cyg&s"
               alt="Mozart"
+              width="250"
             />
             <a
               href="https://www.youtube.com/watch?v=pWq8lBIf20w"
@@ -89,15 +94,15 @@
           </li>
         </ul>
       </section>
-      <section class="Pop">
-        <h3>Pop</h3>
+      <section class="pop">
+        <h3 id="pop">Pop</h3>
+        <h4>Michael Jackson</h4>
         <ul>
-          <h4>Michael Jackson</h4>
           <li>
             <img
               src="https://media.vogue.es/photos/6538fee5e68177b3d0971e69/2:3/w_2560%2Cc_limit/Michael%2520Jackson.jpeg"
               alt="Michael Jackson"
-              width="200"
+              width="250"
             />
             <a
               href="https://www.youtube.com/watch?v=pWq8lBIf20w"
@@ -121,13 +126,13 @@
             </p>
           </li>
         </ul>
+        <h4>Madonna</h4>
         <ul>
-          <h4>Madonna</h4>
           <li>
             <img
               src="https://the-m-magazine.com/wp-content/uploads/2016/12/gary_heery_77.jpg?w=929"
               alt="Madonna"
-              width="200"
+              width="250"
             />
             <a
               href="https://www.youtube.com/playlist?list=PLiomXdAuOA95LI1dZAZvHMnIt-Qf-zViU"
@@ -146,8 +151,8 @@
             </p>
           </li>
         </ul>
+        <h4>Teddy Switch</h4>
         <ul>
-          <h4>Teddy Switch</h4>
           <li>
             <img
               src="https://los40.com/resizer/KNVRP35jM_Xsu2WnOA_zgyrUOlY=/300x0/arc-photo-prisaradiolos40/eu-central-1-prod/public/5LYFKZULZNC65HRLPP2SAKRXPU.jpg"
@@ -173,71 +178,70 @@
           </li>
         </ul>
       </section>
-      <section class="Rock">
-        <h3>Rock</h3>
+      <section class="rock">
+        <h3 id="rock">Rock</h3>
+        <h4>Queen</h4>
         <ul>
           <li>
-            <img src="." alt="." />
-            <a href="."></a>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9qebw4_OEcghbfakcJ5O4qkJO8Kq3-qajyA&s"
+              alt="Queen"
+              width="250"
+            />
+            <a href="https://es.wikipedia.org/wiki/Queen" target="_blank"
+              >https://es.wikipedia.org/wiki/Queen</a
+            >
+            <p>
+              Queen es una banda británica de rock formada en 1970 en Londres,
+              integrada originalmente por el cantante y pianista Freddie
+              Mercury, el guitarrista Brian May, el baterista Roger Taylor y el
+              bajista John Deacon (el cual llegaría un año después al grupo para
+              completar la formación clásica). Sus primeros trabajos estuvieron
+              influenciados por el rock progresivo y el hard rock, pero la banda
+              se aventuró gradualmente en trabajos más convencionales y
+              amigables con la radio, incorporando más estilos como el arena
+              rock y el pop rock.
+            </p>
           </li>
         </ul>
-      </section>
-      <h2 id="Peliculas">Peliculas</h2>
-      <section class="Terror">
-        <h3>Terror</h3>
+        <h4>AC/DC</h4>
         <ul>
           <li>
-            <img src="." alt="." />
-            <a href="."></a>
-          </li>
-        </ul>
-      </section>
-      <section class="Accion">
-        <h3>Accion</h3>
-        <ul>
-          <li>
-            <img src="." alt="." />
-            <a href="."></a>
-          </li>
-        </ul>
-      </section>
-      <section class="Animacion">
-        <h3>Animacion</h3>
-        <ul>
-          <li>
-            <img src="." alt="." />
-            <a href="."></a>
-          </li>
-        </ul>
-      </section>
-      <h2 id="Videojuegos">Videojuegos</h2>
-      <section class="Accion">
-        <h3>Accion</h3>
-        <ul>
-          <li>
-            <img src="." alt="." />
-            <a href="."></a>
-          </li>
-        </ul>
-      </section>
-      <section class="Rpg">
-        <h3>Rpg</h3>
-        <ul>
-          <li>
-            <img src="." alt="." />
-            <a href="."></a>
-          </li>
-        </ul>
-      </section>
-      <section class="Puzzle">
-        <h3>Puzzle</h3>
-        <ul>
-          <li>
-            <img src="." alt="." />
-            <a href="."></a>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/9e/ACDC_In_Tacoma_2009.jpg"
+              alt="AC/DC"
+              width="250"
+            />
+            <a href="https://es.wikipedia.org/wiki/AC/DC"
+              >https://es.wikipedia.org/wiki/AC/DC</a
+            >
+            <p>
+              AC/DC es una banda de hard rock británica-australiana, formada en
+              1973 en Australia por los hermanos escoceses Malcolm Young y Angus
+              Young y Dave Evans como vocalista. Sus álbumes se han vendido en
+              un total estimado de 200 millones de copias, embarcándose en giras
+              multitudinarias por todo el mundo y sus éxitos han musicalizado
+              varias producciones cinematográficas sobresalientes. Son famosas
+              sus actuaciones en vivo, resultando vibrantes y exultantes
+              espectáculos de primer orden. Mucho de ello se debe al
+              extravagante estilo de su guitarrista principal y símbolo visual,
+              Angus Young, quien asume el rol de guitarrista principal durante
+              los conciertos, gracias a sus dinámicos y adrenalínicos
+              despliegues escénicos uniformado de colegial callejero. Al
+              comienzo sufrieron diversos cambios en su alineación. En 1974 tras
+              Dave Evans dejar el puesto de vocalista, es que la llegada del
+              cantante Bon Scott se convertiría en una pieza clave del éxito del
+              grupo. Su presencia en escena, lo convirtió en uno de los
+              personajes más carismáticos de la historia del hard rock. La
+              formación se estabilizaría con Cliff Williams (bajo) y Phil Rudd
+              (baterista).
+            </p>
           </li>
         </ul>
       </section>
     </main>
+    <footer>
+      <a id="top-btn" href="#home">Home</a>
+    </footer>
   </body>
 </html>
